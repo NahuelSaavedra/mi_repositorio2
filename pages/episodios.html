@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 	<meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,10 +12,9 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" href="../css/estilo.css">
-  <link rel="stylesheet" href="../css/images.css">
 </head>
 <body class="body">
-	<header>	
+	<header id="up">	
    <a class="Logohead" href="../index.html"> <img class="Logohead" src="../images/Logohead.png" alt="pwr">
   </a>
 <nav>
@@ -31,42 +30,69 @@
 <a class="btn-area" href="https://open.spotify.com/show/0gUsrEqj9LVAb4fHyd2miS?si=ur-_doxrRJycENWGlnffSw"> <img class="spotify" src="../images/spotify.png" alt=""></a>
 </header>
 
-<div class="contenedor">
-	<div class="card">
-		<a href="#" class="card__thumbnail">
-			<img class="card__img" src="../images/Episodio1.png" alt="">
-		</a>
-		<div class="card__textos">
-			<h3 class="card__titulo">
-				<a href="" class="card__enlace">Episodio 1</a>
-			</h3>
-			<p class="card__extracto">Luego de 170 días de encierre social obligatorio en Argentina, Rayen Guido selecciona 5 recitales de rock&roll emblemáticos liberados en youtube para ambientar tu cuarentena o quizás para manijearte un rato si extrañas los recitales como nosotras. Dale, escuchalo, hacete un poguito🙌✨</p>
-			<a href="" class="boton boton__absolute">
-				<span class="boton__texto">Escuchar</span>
-			</a>
-		</div>
-	</div>
-</div>
-	<div class="grilla"> 
-	<main> 
+	<main>  
 		<h1 > ¡ultimos lanzamientos! </h1> 
 		<iframe src="https://open.spotify.com/embed-podcast/show/0gUsrEqj9LVAb4fHyd2miS" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe> 
 
 	
-		<h1>EPISODIOS</h1>
-		<h2>episodio 2</h2>
-			
-		<h2>¿Qué tienen en común: Blur, Declan McKenna, Arctic Monkeys, Tame Impala, Deep Purple, Sara Hebe, Franz Ferdinand, Black Sabbath, Peces Raros, Spinetta, Sofi Tukker, Fito Paez, Evanescence, Prince, David Bowie, Babasónicos, Queen y Marilyn Manson? En esta segunda entrega Paula Balzola nos habla de aquellas tapas que suenan color violeta 	
-			
-		 <img class="imgep2" src="../images/Episodio2.png" alt="S0E2"></h2>
+		<div class="container">
+	   <div class="row">
+		<!--Carousel Wrapper-->
+<div id="carousel-example-2" class="carousel slide carousel-fade z-depth-1-half" data-ride="carousel">
+  <!--Indicators-->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-2" data-slide-to="1"></li>
+    <li data-target="#carousel-example-2" data-slide-to="2"></li>
+  </ol>
+  <!--/.Indicators-->
+  <!--Slides-->
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <div class="view" >
+        <a href="https://open.spotify.com/episode/7u8Fyp1kPJf5NLMR3iazK0?si=cIpiezM2QbyNrmYk8gsX0Q&utm_source=whatsapp"><img class="d-block w-100" src="../images/Episodio1.jpg" alt="First slide"
+           ></a>
+        <div class="mask rgba-black-light"></div>
+      </div>
+     
+    </div>
+    <div class="carousel-item">
+      <!--Mask color-->
+      <div class="view">
+        <a href="https://open.spotify.com/episode/10QztcIF5H5lpJB6gYzNAW?si=veuPesCUTZCEN9Pf3OJd4A&utm_source=copy-link"><img class="d-block w-100" src="../images/Episodio2.jpg" alt="Second slide">
+          </a>
+        <div class="mask rgba-black-light">
+          
+        </div>
+      </div>
+     
+    </div>
+    <div class="carousel-item">
+      <!--Mask color-->
+      <div class="view">
+       <a href="https://open.spotify.com/episode/484LVNrGPh0kg75ChBotNL?si=I8dVKavVTGy9c3h2Pkcglg&utm_source=copy-link"><img class="d-block w-100" src="../images/Episodio3.jpg" alt="Third slide">
+        </a> 
+         <div class="mask rgba-black-light">
+          
+        </div>
+      </div>
+     
+    </div>
+  </div>
+</main>
 
-		 <h2>episodio 1</h2>
-		 <h2> Luego de 170 días de encierre social obligatorio en Argentina, Rayen Guido selecciona 5 recitales de rock&roll emblemáticos liberados en youtube para ambientar tu cuarentena o quizás para manijearte un rato si extrañas los recitales como nosotras. Dale, escuchalo, hacete un poguito🙌✨
-		<img class="imgep1" src="../images/Episodio1.png" alt=""></h2>
-	</div>
+	<footer>
+    <div class="wrapper">
 
+      <small>&copy;2020 <strong>Power Beat</strong>, Todos los derechos reservados</small>
+      <nav class="footer-nav">
+        <a href="#up">Subir</a>
+        <a href="#">spotify</a>
+        <a href="#">instagram</a>
+      </nav>
+      <span>Sitio web desarrollado por Nano Saavedra</span>
+    </div>
+  </footer>
 
-		</main>
-</div>
 </body>
 </html>
